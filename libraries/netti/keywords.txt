@@ -1,0 +1,41 @@
+###########################################
+# Syntax Coloring Map For hd44780
+# note:
+# the alignment in the file looks like crap
+# because the IDE doesn't parse white space
+# correctly so a  single tab must be used on
+# keyword lines
+# old IDEs only support a single tab
+# new IDES support mutiple tabs
+# as of 1.6.9 no IDE supports using space
+# or multiple spaces.
+# This is mess because of the obstinance of
+# the Arduino team developers refusing to
+# change a single line of code in the IDE
+# to use whitespace which is space(s)/tab(s)
+# rather than explicitly requiring a single
+# tab as a seperator
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+netti	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+SetupWifi	KEYWORD2
+ReconnectWifi	KEYWORD2
+SetupMobile	KEYWORD2
+ReconnectMobile	KEYWORD2
+ReconnectMqtt   KEYWORD2
+getdate		KEYWORD2
+retClient	KEYWORD2
+mqttpublish KEYWORD2
+reset KEYWORD2
+TestWifi KEYWORD2
+###########################################
+# Constants (LITERAL1)
+###########################################
