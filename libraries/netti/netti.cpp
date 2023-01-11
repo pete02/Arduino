@@ -163,7 +163,7 @@ void netti_::SetupMobile() {
   Serial.print("Connecting to ");
   Serial.println("peten puhelin");
   WiFi.hostname("ESP_host");
-  WiFi.begin("Samsung_9","2020#Omamobile");
+  WiFi.begin("Samsung_9","");
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");

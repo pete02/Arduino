@@ -33,8 +33,8 @@ void loop() {
    if(millis()-now>30000){
       netti.ReconnectWifi();
       netti.ReconnectMqtt("wind/reset");
-      float g=i/10;
-      g=g*0.4492;
+      float g=i/30;
+      g=g*0.667;
       i=0;
       char r[8];
       dtostrf(g,6,2,r);
