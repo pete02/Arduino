@@ -1,1 +1,4 @@
-test
+This is a code snippet for an Arduino project that displays weather data on an LCD screen. The code uses the ESP8266 WiFi module to query weather data from a server, and displays the data on a TFT_eSPI LCD screen. The project also includes features like NTP time synchronization and touch screen controls.
+
+The code is written in C++ and uses several libraries, including ESP8266HTTPClient, ArduinoJson, TFT_eSPI, TimeLib, Pinger, and WiFiUDP. The code initializes the LCD screen and WiFi module in the setup function, and then runs a loop function that queries weather data from the server and updates the display on the screen. The loop function also checks for touch screen inputs and changes the display page accordingly.
+![display](https://user-images.githubusercontent.com/47357440/235896613-4c0d8a4b-cf6c-4b4a-953a-cc31303c7a3c.jpg)
